@@ -1,0 +1,129 @@
+{
+    // "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.shellArgs.windows": ["-ExecutionPolicy", "Bypass"],
+    "workbench.editor.scrollToSwitchTabs": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Material Theme High Contrast",
+    "workbench.colorCustomizations": {},
+    "java.home": "C:\\Program Files\\Java\\jdk-14.0.1",
+    "java.help.firstView": "gettingStarted",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.semanticHighlighting.enabled": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "git.autofetch": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "scm.alwaysShowRepositories": true,
+    "debug.javascript.debugByLinkOptions": "always",
+    "bracket-pair-colorizer-2.colors": [
+        "Gold",
+        "Orchid",
+        "LightSkyBlue"
+    ],
+    "editor.wordWrap": "on",
+    "editor.wrappingIndent": "indent",
+    "colorize.languages": [
+        "javascript",
+        "html",
+        "css",
+        "sass",
+        "scss",
+        "less",
+        "postcss",
+        "sss",
+        "stylus",
+        "xml",
+        "svg"
+    ],
+    "html.format.endWithNewline": true,
+    "html.format.wrapLineLength": 0,
+    "html.format.maxPreserveNewLines": 1,
+    "gitlens.hovers.annotations.over": "annotation",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "liveServer.settings.host": "localhost",
+    "todo-tree.tree.showScanModeButton": false,
+    // "terminal.integrated.shellArgs.windows": null,
+
+    "todo-tree.highlights.defaultHighlight": {
+        "icon": "alert",
+        "type": "text",
+        "foreground": "red",
+        "background": "yellow",
+        "opacity": 50,
+        "iconColour": "blue"
+    },
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "icon": "check",
+            "type": "line",
+            "gutterIcon": true
+        },
+        "FIXME": {
+            "foreground": "black",
+            "iconColour": "yellow",
+            "gutterIcon": true
+        }
+    },
+    "python.languageServer": "Pylance",
+    "workbench.editor.wrapTabs": true,
+    "editor.formatOnType": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "azure.resourceFilter": [
+        "3ea4ee53-5e07-4a30-bd0d-e464769a4f4f/090958dd-c88f-4700-8306-ebb2cfacac0a",
+        "cb79aba8-f7c0-4524-ab1d-b5891f4db0fa/bf7f306b-41c5-444a-92fa-a89cd428d057"
+    ],
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "stash-push:command",
+        "switch:command",
+        "push:command"
+    ],
+    "files.associations": {
+        "*.mdx": "mdx"
+    },
+    "yaml.schemas": {
+        "file:///c%3A/Users/AnweshG/.vscode/extensions/atlassian.atlascode-2.9.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "atlascode.jira.jqlList": [
+        {
+            "id": "08c1b117-32ad-4bb6-a2a5-6d86cca8c7c2",
+            "enabled": true,
+            "name": "My vconstructssc Issues",
+            "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+            "siteId": "0612bd2e-152e-4209-bd0c-f9342c1a338a",
+            "monitor": true
+        }
+    ],
+    "redhat.telemetry.enabled": false,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "[markdown]": {
+
+        "editor.formatOnSave": false
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.largeFileOptimizations": false,
+    "editor.formatOnSave": true,
+    "python.terminal.executeInFileDir": true,
+    "python.formatting.provider": "black",
+    "editor.bracketPairColorization.enabled": true,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt"
+}
+
